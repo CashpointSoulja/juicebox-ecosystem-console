@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ecosystem Pipeline Console: independent concept by Ayo Ahmed</title>
+<meta name="description" content="Independent concept by Ayo Ahmed. Synthetic data only. Not affiliated with Juicebox.">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/app.css">
+<script src="js/app.js" type="module"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="strip" role="note">Synthetic data only. No CRM, ad platform or events system is connected. Independent concept by Ayo Ahmed, not affiliated with or endorsed by Juicebox.</div>
+<header class="top">
+  <div class="brandline">
+    <div>
+      <p class="eyebrow">Independent concept by Ayo Ahmed</p>
+      <h1>Ecosystem Pipeline Console</h1>
+    </div>
+    <div class="context">
+      <span>Designed around the public Growth - UK role at</span>
+      <img src="brand/juicebox-wordmark.svg" alt="Juicebox" width="113" height="22">
+    </div>
+  </div>
+</header>
+<main id="main" class="wrap">
+  <section class="hero">
+    <p class="eyebrow">For Juicebox Growth - UK</p>
+    <h2>Every ecosystem bet, tied to the accounts it actually produced.</h2>
+    <p class="lede">I read the Growth - UK job description. This is where I think the issue is, this is how I have solved it before, and this is how I would solve it for you.</p>
+    <div class="beats">
+      <div class="beat">
+        <p class="beat-label">The issue</p>
+        <p class="beat-title">Ecosystem spend is a black box</p>
+        <p class="beat-body">VC partnerships, founder dinners, conferences, OOH - the role runs on relationships, but a quarter later nobody can say which initiative produced a customer. The next budget is a guess, and the best channel gets cut with the worst.</p>
+      </div>
+      <div class="beat">
+        <p class="beat-label">Before</p>
+        <p class="beat-title">How I have solved it</p>
+        <p class="beat-body">At Corgi I ran product operations and built the internal systems the team worked from. Before that I founded a company and ran its operations end to end, where every pound of spend had to justify itself.</p>
+      </div>
+      <div class="beat">
+        <p class="beat-label">For you</p>
+        <p class="beat-title">How I would solve it</p>
+        <p class="beat-body">Track every initiative from first touch to activated account: what it cost, which accounts it sourced, how far they got, and the cost per activated account - so doubling down is a decision, not a debate.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="console">
+    <h3 class="section-title">Initiatives in. Accounts out.</h3>
+    <p class="note">Four sample initiatives from a UK growth quarter. Pick one to see the accounts it sourced, how far each one travelled, and the economics. Sample data throughout.</p>
+    <div class="stat-strip">
+      <div class="stat"><p class="stat-value" id="cAccounts">0</p><p class="stat-label">Accounts sourced</p></div>
+      <div class="stat"><p class="stat-value" id="cActivated">0</p><p class="stat-label">Activated</p></div>
+      <div class="stat"><p class="stat-value live" id="cCpa">-</p><p class="stat-label">Cost / activated account</p></div>
+    </div>
+    <div class="console">
+      <div class="panel">
+        <div class="ph">Initiatives</div>
+        <div id="initiatives"></div>
+      </div>
+      <div class="panel">
+        <div class="ph">Accounts sourced</div>
+        <div id="accounts"><p class="note">Select an initiative on the left.</p></div>
+        <div class="decision" id="decision" hidden>
+          <p class="verdict" id="verdict"></p>
+          <p class="why" id="why"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="double-down">
+    <h3 class="section-title">Where to double down</h3>
+    <p class="note">Ranked by cost per activated account, because that is the number a growth budget should obey.</p>
+    <div id="ranking"></div>
+  </section>
+</main>
+<footer>
+  <p>Ecosystem Pipeline Console - an independent concept by Ayo Ahmed, built around the public Growth - UK role at Juicebox. Synthetic sample data only; no live systems connected. Not affiliated with or endorsed by Juicebox.</p>
+</footer>
+</body>
+</html>

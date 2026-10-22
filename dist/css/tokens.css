@@ -1,0 +1,8 @@
+:root{
+  --ink:#1d161d; --panel:#251e25; --panel-2:#2c232c;
+  --line:rgba(248,246,248,.12); --line-strong:rgba(248,246,248,.28);
+  --text:#f8f6f8; --muted:#a89ea8; --dim:#786c78;
+  --green:#229604; --green-soft:rgba(34,150,4,.16);
+  --mono:'DM Mono',ui-monospace,'SFMono-Regular',Menlo,monospace;
+  --sans:'Geist',-apple-system,'Segoe UI',Roboto,sans-serif;
+}
